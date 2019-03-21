@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Playlist maker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
+  <script src="./js/script.js"></script>
+</head>
+
+<body>
+  <div id="content">
+    <h2><img src="./images/Spotify_Icon_RGB_Green.png" width="30px" height="30px"> playlist maker</h2>
+
+
+    <input type="radio" id="keyword" name="radio">
+    <label for="keyword">Keyword</label>
+
+    <input type="radio" id="genre" name="radio">
+    <label for="genre">Genre</label>
+
+    <input type="text" placeholder="" id="input">
+    <button onclick="getUserId()">Create playlist</button>
+  </div>
+  <div id="play_div">
+    <a href="" id="play_button"></a>
+  </div>
+</body>
+
+</html>

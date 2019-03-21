@@ -1,0 +1,14 @@
+body {
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    background-color: #08120C;
+    color: white;
+}
+h2 {
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+}
+#play_button {
+    width: 100px;
+    padding-top: 20px;
+}
